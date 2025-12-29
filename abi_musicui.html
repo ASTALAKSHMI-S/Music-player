@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music App</title>
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .app {
+            width: 300px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        p {
+            color: gray;
+            margin-bottom: 15px;
+        }
+
+        img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="app">
+        <h2>My Music App</h2>
+        <p>Perfect - Ed Sheeran</p>
+
+        <!-- Album Image -->
+        <img src="https://i.pinimg.com/736x/9a/22/fb/9a22fbaa1c35182063a67cae7913175c.jpg" alt="Album Cover">
+
+        <!-- Music Player -->
+        <audio controls>
+            <source src="https://mr-jat.in/dlod/6239?&volume=75&showstop=1&showvolume=1" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </div>
+
+</body>
+</html>
